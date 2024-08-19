@@ -1,6 +1,6 @@
 const express = require('express');
 //test api key will change later
-const stripe = require('stripe')('sk_test_51PNIdBHgfBYVHXADDenzS6FbrMlHhzw4xRZp3Jjv72DQbhGsFfxp7ZaUWWRjNTfaWTl7xvSLFPKrxshVTCzkd1Lx00GHRoWAar');
+const stripe = require('stripe')('<STRIPE_API_KEY>');
 const nodemailer = require('nodemailer');
 const send = require('send');
 
